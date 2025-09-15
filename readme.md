@@ -51,9 +51,12 @@ Before running the application, make sure you have the following libraries insta
 
 - Click the "Browse Model" button to select your YOLO model file (e.g., yolov8n.pt).
 
+
     ![](assests/model_selection.jpg)
     ![](assests/model_selection2.jpg)
 - Click "Load Model" to load the model into the application. The status label will turn green if successful.
+
+
 
     ![](assests/load_model.jpg)
 
@@ -69,10 +72,14 @@ Use the **"Confidence Threshold"** slider to set the minimum confidence score fo
 
 - **Video:** Click "Select Video File" to choose a video. Then, click "Start Video Detection" to begin processing. The annotated video will be saved to a new file in the same directory.
 
+
+
     ![](assests/video_detection.jpg)
 
 - **Live Webcam:** Check the "Save video output" box if you want to record the live session. Click "Start Live Detection" to activate your webcam. Click "Stop Detection" to end the session.
-    ![](assests/live_detection.jpg)
+
+
+  ![](assests/live_detection.jpg)
 
 ## Code Structure 📂
 - **VideoThread Class:** A QThread subclass that handles all the heavy lifting of video capture and object detection. It runs in a separate thread to keep the GUI responsive.
@@ -89,4 +96,5 @@ I use QT and ultralytics library both have commericial license as well. So verif
 ---
 - **Author :** kuldeepshergill@outlook.com
 - **License :** GPL 
+
 - **Suggestion :** Feel free to contribute or suggestions.  
