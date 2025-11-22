@@ -1,5 +1,6 @@
 # YOLO Object Detection GUI
 This is a desktop application for real-time object detection using the YOLO (You Only Look Once) model build with ultralytics libarary. It's built with PyQt5 for the graphical user interface and OpenCV for video and image processing. The application allows users to load a YOLO model, adjust detection settings, and perform object detection on images, video files, or a live webcam feed.
+![](assests/main.jpg)
 
 ## Features ✨
 - **Model Loading:** Load a pre-trained YOLO model (e.g., a .pt file).
